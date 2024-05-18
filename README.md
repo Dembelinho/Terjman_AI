@@ -15,6 +15,49 @@ This a Hackathon project's Repo
 * Postgres SGBD
 
 ```
+## Project Global Schema
+
+<img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/102c14fb-e89a-4c1d-8e1d-3b63116afe55" alt="Terjman Schema" width="500" height="500">
+
+   This schema outlines a system for processing queries in **"Darija"** (Moroccan Arabic) and converting them into English for further processing by an LLM (Large Language Model). Then translating back the response into Darija. 
+
+   Here’s a detailed explanation of each component and the workflow:
+
+1. **User Interaction (Streamlit)**
+   - **User**: The final user interacts with the system through a user interface (UI) built with Streamlit.
+   - **Darija Query**: The user submits a query in Darija through the Streamlit interface.
+
+2. **Translation and Embedding**
+   - **tarjam_darija_english**: This component translates the Darija query into English. It likely uses a fine-tuned machine translation model "Helsinki-NLP/opus-mt-ar-en", that has    been trained to convert Darija to English.
+   - **English Query**: The translated English query is generated from the Darija query.
+
+3. **Processing with LangChain**
+   - **LangChain**: A framework used for prompt engineering and managing interactions with LLMs. It is used to create a structured prompt from the English query.
+   - **Prompt Engineering**: This step involves creating an appropriate prompt for the LLM to process based on the English query. It involves formatting and structuring the query to get the best possible response from the LLM.
+
+4. **LLM Interaction**
+   - **API LLM**: An external API-based large language model (like OpenAI's GPT) is used to process the structured prompt.
+   - **Open Sources LLM**: Alternatively, a public LLM model can be used for processing the query. This might be an in-house model or one hosted on any server.
+   - **Response Generation**: The LLM processes the prompt and generates a response in English.
+
+5. **Translation Back to Darija**
+   - **tarjam_english_darija**: This component translates the English response back into Darija using **" lachkarsalim/Helsinki-translation-English_Moroccan-Arabic "** model from HuggingFace.
+   - **Darija Response**: The translated response in Darija is generated from the English response.
+
+6. **Returning the Response**
+   - **Postgres**: The queries and responses are stored in a Postgres database for record-keeping, analytics, or further processing.
+   - **Streamlit Interface**: The final response in Darija is displayed to the user through the Streamlit interface.
+
+**Workflow Summary**:
+1. The user submits a Darija query via Streamlit UI.
+2. The Darija query is translated into English using the `tarjam_darija_english` component.
+3. The English query is processed using LangChain for prompt engineering.
+4. The structured prompt is sent to either an API-based LLM or a public LLM.
+5. The LLM generates a response in English.
+6. The English response is translated back into Darija using the `tarjam_english_darija` component.
+7. The Darija response is stored in a Postgres database and displayed to the user through Streamlit.
+
+This setup allows for the effective handling of queries in Darija, leveraging advanced language models for processing and translating responses back to the user's native language.
 
 ## RAG Schema
 <img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/367b441d-a9da-47d8-8323-df98a4182170" alt="RAG Schema" width="400" height="500">
@@ -62,9 +105,5 @@ This setup allows for efficient document retrieval and processing by combining l
 1. **The model**
    - **Helsinki-NLP/opus-mt-ar-en**: This model can accept as a source language: 'Arabic' and translate it into a target language: 'English'.
 2. **The purpose**
-3. **The dataset
+3. **The dataset** : For fine_tune the model we will use the ''' atlasia/darija_english ''' datasets
 
-
-## User interaction (Streamlit)
-1. **User Interaction**
-   - The end-user interacts with the system through a user interface built with Streamlit.
