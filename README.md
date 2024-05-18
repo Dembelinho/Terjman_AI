@@ -148,9 +148,9 @@ This setup effectively handles queries in Darija, leveraging advanced language m
 
 The process flow is as follows:
 - The user provides a Darija query.
-- The Tarjm_dr_en module translates it to English.
-- The RAG module generates an English response by retrieving relevant information and generating text.
-- The Tarjm_en_dr module translates the English response back to Darija.
+- The Tarjman_dr_en module translates it to English.
+- The RAG module & LLM generates an English response by retrieving relevant information and generating text.
+- The Tarjman_en_dr module translates the English response back to Darija.
 - The system utilizes various language models, both open-source and proprietary, for tasks like translation and generation.
 
 The schema depicts a multilingual language processing pipeline that allows users to interact in their native Darija language while leveraging language models and information retrieval techniques to generate relevant responses.
@@ -213,12 +213,12 @@ By using prompt engineering techniques tailored to Moroccan culture, language, a
 For example, we will compare two results of one query:**"كيفاش نصاوب اتاي"**, before and after using this prompt:
 ![this make a difference](https://github.com/Dembelinho/Terjman_AI/assets/110602716/02451fe6-e037-41a6-8769-281df7e2ffd0)
 
-### Comparative table
+## Benchmark table
 
 <table align="center">
     <tr>
-        <th>Before Mr Prompt</th>
-        <th>After Mr Prompt</th>
+        <th>Before Moroccan Prompt</th>
+        <th>After Moroccan Prompt</th>
     </tr>
     <tr>
         <td><img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/34ac669a-a686-40a1-8b88-eb5b3d5cb4c9"/></td>
