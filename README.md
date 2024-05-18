@@ -129,3 +129,18 @@ Enhance the usability and relevance of Large Language Models (LLMs) for Moroccan
 
 By using prompt engineering techniques tailored to Moroccan culture, language, and specific domains like healthcare and education, we can significantly enhance the relevance and usability of LLMs for Moroccan users. This approach ensures that the responses are not only accurate but also culturally resonant and practically useful, bridging the gap between advanced AI capabilities and the unique needs of Moroccan communities.
 
+For example, we will compare two results of one query:**"كيفاش نصاوب اتاي"**, before and after using this prompt:
+![this make a difference](https://github.com/Dembelinho/Terjman_AI/assets/110602716/02451fe6-e037-41a6-8769-281df7e2ffd0)
+
+### Comparative table
+
+<table align="center">
+    <tr>
+        <th>Before Mr Prompt</th>
+        <th>After Mr Prompt</th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/34ac669a-a686-40a1-8b88-eb5b3d5cb4c9"/></td>
+        <td><img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/b389259f-3b9f-4480-bf1d-c487642ac3a0"/></td>
+    </tr>
+</table>
