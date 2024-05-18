@@ -19,14 +19,14 @@ This a Hackathon project's Repo
 # Project: Context & Limitations
 The project will be a multilingual question-answering (Q/A) system that specifically handles queries in "Darija" (Moroccan Local Arabic).
 ## Context: Source of the Idea
-- In the current time many LLMs can do some great tasks with a big knowledge of different fields but the problem for "Moroccan people" is the query should be in French or English language(The most Popular Languages)
+- In the current time many LLMs can do some great tasks with a big knowledge of different fields but the problem for "Moroccan people" is the query should be in French, English, etc... languages (The most Popular Languages around the world)
 - So we got the idea to develop a comprehensive multilingual question-answering (Q/A) platform that allows Moroccan users to interact with advanced Large Language Models (LLMs) using their native languages, such as Darija (Moroccan Arabic), ensuring accessibility and inclusivity in leveraging cutting-edge AI technologies for various informational needs.
 - And also the possibility of uploading some documents to extract knowledge from them.
 
 ## Limitations of our Solution
 - But the limitations of our solution are reflected in expressions with a metaphorical meaning such as proverbs.
 - For more clarity, I will give some examples :
-- 1. "Ta7 l7ok wssab ghtah"
+  1. "Ta7 l7ok wssab ghtah"
   2. "F9ih li ntsenaw barakto dkhal jame3 b baleghto"
   3. "Drebni w bka, sbe9ni w chka" ,etc....
   
@@ -119,6 +119,13 @@ This setup allows for efficient document retrieval and processing by combining l
 
 1. **The model**
    - **Helsinki-NLP/opus-mt-ar-en**: This model can accept as a source language: 'Arabic' and translate it into a target language: 'English'.
-2. **The purpose**
+2. **The purpose**: This model needs to be fine-tuned so it can accept prompts in 'Darija' and translate them into 'English'.
 3. **The dataset** : For fine_tune the model we will use the ''' atlasia/darija_english ''' datasets
+4. **Dev Environment**: HuggingFace Space
+
+## Prompt Engineering Technics
+
+Enhance the usability and relevance of Large Language Models (LLMs) for Moroccan users by adapting the models and their outputs using prompt engineering techniques. This will ensure that the responses are contextually appropriate, culturally relevant, and linguistically accurate.
+
+By using prompt engineering techniques tailored to Moroccan culture, language, and specific domains like healthcare and education, we can significantly enhance the relevance and usability of LLMs for Moroccan users. This approach ensures that the responses are not only accurate but also culturally resonant and practically useful, bridging the gap between advanced AI capabilities and the unique needs of Moroccan communities.
 
