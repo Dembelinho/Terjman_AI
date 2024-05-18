@@ -151,10 +151,9 @@ The process flow is as follows:
 - The Tarjman_dr_en module translates it to English.
 - The RAG module & LLM generates an English response by retrieving relevant information and generating text.
 - The Tarjman_en_dr module translates the English response back to Darija.
-- The system utilizes various language models, both open-source and proprietary, for tasks like translation and generation.
 
-The schema depicts a multilingual language processing pipeline that allows users to interact in their native Darija language while leveraging language models and information retrieval techniques to generate relevant responses.
------------------------------------
+As summary, the schema depicts a "Darija" language processing pipeline that allows users to interact in their native Moroccan language while leveraging language models and information retrieval techniques to generate relevant responses. 
+
 # RAG Schema
 <img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/367b441d-a9da-47d8-8323-df98a4182170" alt="RAG Schema" width="400" height="500">
 
