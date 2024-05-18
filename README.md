@@ -1,5 +1,6 @@
 # Terjman_AI
 This a Hackathon project's Repo
+
 # Getting Started
 ## 📚Prerequisite
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
@@ -15,7 +16,21 @@ This a Hackathon project's Repo
 * Postgres SGBD
 
 ```
-## Project Global Schema
+# Project: Context & Limitations
+The project will be a multilingual question-answering (Q/A) system that specifically handles queries in "Darija" (Moroccan Local Arabic).
+## Context: Source of the Idea
+- In the current time many LLMs can do some great tasks with a big knowledge of different fields but the problem for "Moroccan people" is the query should be in French or English language(The most Popular Languages)
+- So we got the idea to develop a comprehensive multilingual question-answering (Q/A) platform that allows Moroccan users to interact with advanced Large Language Models (LLMs) using their native languages, such as Darija (Moroccan Arabic), ensuring accessibility and inclusivity in leveraging cutting-edge AI technologies for various informational needs.
+- And also the possibility of uploading some documents to extract knowledge from them.
+
+## Limitations of our Solution
+- But the limitations of our solution are reflected in expressions with a metaphorical meaning such as proverbs.
+- For more clarity, I will give some examples :
+- 1. "Ta7 l7ok wssab ghtah"
+  2. "F9ih li ntsenaw barakto dkhal jame3 b baleghto"
+  3. "Drebni w bka, sbe9ni w chka" ,etc....
+  
+# Project Global Schema
 
 <img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/102c14fb-e89a-4c1d-8e1d-3b63116afe55" alt="Terjman Schema" width="500" height="500">
 
@@ -59,7 +74,7 @@ This a Hackathon project's Repo
 
 This setup allows for the effective handling of queries in Darija, leveraging advanced language models for processing and translating responses back to the user's native language.
 
-## RAG Schema
+# RAG Schema
 <img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/367b441d-a9da-47d8-8323-df98a4182170" alt="RAG Schema" width="400" height="500">
 
 This schema illustrates a workflow involving various components for a document retrieval and processing system using LlamaIndex /or Langchain. Here’s an explanation:
