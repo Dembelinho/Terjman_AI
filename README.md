@@ -1,5 +1,20 @@
 # Terjman_AI
 This a Hackathon project's Repo
+# Getting Started
+## 📚Prerequisite
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
+
+```
+
+* Ollama
+* GPT
+* Langchain / llama-index
+* HuggingFace
+* Google-Colab
+* Python
+* Postgres SGBD
+
+```
 
 ## RAG Schema
 <img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/367b441d-a9da-47d8-8323-df98a4182170" alt="RAG Schema" width="400" height="500">
@@ -42,6 +57,14 @@ This schema illustrates a workflow involving various components for a document r
 
 This setup allows for efficient document retrieval and processing by combining local and remote computational resources and advanced machine-learning models.
 
+## Fine-tuning 
+
+1. **The model**
+   - **Helsinki-NLP/opus-mt-ar-en**: This model can accept as a source language: 'Arabic' and translate it into a target language: 'English'.
+2. **The purpose**
+3. **The dataset
+
+
 ## User interaction (Streamlit)
-1. **User Interaction **
+1. **User Interaction**
    - The end-user interacts with the system through a user interface built with Streamlit.
