@@ -1,19 +1,20 @@
 # TARJMAN_AI
+<img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/40121ee9-27a6-4240-b938-18366125608c" alt="Terjmanlogo" width="212" height="212">
+
 This a Hackathon project's Repo
 
 # Getting Started
 ## 📚Prerequisite
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
+![Postgres SGBD](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
+![Google-Colab](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?style=for-the-badge&logo=Google-Colab&logoColor=white)
 
 ```
-
 * Ollama
-* GPT
+* GPT - OPENAI
 * Langchain / llama-index
 * HuggingFace
-* Google-Colab
-* Python
-* Postgres SGBD
 
 ```
 
@@ -38,6 +39,7 @@ This can be applied in various scenarios where Moroccan users need accessible an
   1. "Ta7 l7ok wssab ghtah"
   2. "F9ih li ntsenaw barakto dkhal jame3 b baleghto"
   3. "Drebni w bka, sbe9ni w chka" ,etc....
+- In the health field the problem has a 'low probability' of generating a false instructions
 
 # Use-cases examples
 ## 1. IS3AFAT_AI
@@ -86,6 +88,10 @@ A user initiates a educational query **(darija-query)** to the system, which pro
   1- We give them the possibility to create their own Darija_Assistance (**X_DARIJA_AI**) with their documents (RAG parts) in specific fields, via an UI that contains several fields for more flexibility
   
   2- They have the choice between using their local LLM model or our LLMs models.
+
+This is the UI for enterprises
+
+![Entreprise UI](https://github.com/Dembelinho/Terjman_AI/assets/110602716/7a18337b-1bec-4a76-979e-34965cb1aaf2)
 
 # Project Global Schema
 
@@ -197,11 +203,13 @@ This setup allows for efficient document retrieval and processing by combining l
 
 ## Fine-tuning 
 
+To bypass the limitations of our solution, we tried to finetune an existing model
 1. **The model**
-   - **Helsinki-NLP/opus-mt-ar-en**: This model can accept as a source language: 'Arabic' and translate it into a target language: 'English'.
-2. **The purpose**: This model needs to be fine-tuned so it can accept prompts in 'Darija' and translate them into 'English'.
+   - **facebook/nllb-200-3.3B**: This model can accept as a source language: 'DARIJA' and translate it into a target language: 'English'.
+2. **The purpose**: This model needs to be fine-tuned so it can translate more words and sentences.
 3. **The dataset** : For fine_tune the model we will use the ''' atlasia/darija_english ''' datasets
 4. **Dev Environment**: HuggingFace Space
+5. **Result**: --Benchmark before/after
 
 ## Prompt Engineering Techniques
 
