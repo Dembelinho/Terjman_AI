@@ -4,10 +4,25 @@
 This a Hackathon project's Repo
 
 ## Table of Contents
-- [Getting Started](#main-heading)
-  - [📚Prerequisite](#sub-heading-1)
-- [How to test our app](#main-heading)
-  - [📚Prerequisite](#sub-heading-1)
+- [Getting Started](#getting-started)
+  - [📚Prerequisite](#prerequisite)
+- [How to test our app](#how-to-test-our-app)
+- [Project: Context & Limitations](#project-context--limitations)
+  - [Context: Seed Idea](#context-seed-idea)
+  - [Use Cases](#use-cases)
+  - [Limitations of our Solution](#limitations-of-our-solution)
+- [Use-cases examples](#use-cases-examples)
+  - [1. CHRE7LIA_AI](#1-chre7lia_ai)
+    - [Workflow](#workflow)
+    - [Demonstration](#demonstration)
+  - [2. Image generator](#2-image-generator)
+  - [3. Enterprise Edition](#3-enterprise-edition)
+- [Project Global Schema](#project-global-schema)
+- [Enterprise usage](#enterprise-usage)
+- [RAG Schema](#rag-schema)
+- [Fine-tuning](#rag-schema)
+- [Prompt Engineering Techniques](#rag-schema)
+  - [Benchmark table](#rag-schema)
 
 # Getting Started
 ## 📚Prerequisite
@@ -214,7 +229,7 @@ This schema illustrates a workflow involving various components for a document r
 
 This setup allows for efficient document retrieval and processing by combining local and remote computational resources and advanced machine-learning models.
 
-## Fine-tuning 
+# Fine-tuning 
 
 To bypass the limitations of our solution, we tried to finetune an existing model
 1. **The model**
@@ -242,7 +257,7 @@ To bypass the limitations of our solution, we tried to finetune an existing mode
     </tr>
 </table>
 
-## Prompt Engineering Techniques
+# Prompt Engineering Techniques
 
 Enhance the usability and relevance of Large Language Models (LLMs) for Moroccan users by adapting the models and their outputs using prompt engineering techniques. This will ensure that the responses are contextually appropriate, culturally relevant, and linguistically accurate.
 
