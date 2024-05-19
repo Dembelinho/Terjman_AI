@@ -19,6 +19,7 @@ This a Hackathon project's Repo
 ```
 
 # Project: Context & Limitations
+- GenAI Challenge path: Moroccan Dialect
 The project will be a multilingual question-answering (Q/A) system that specifically handles queries in "Darija" (Moroccan Local Arabic).
 ## Context: Seed Idea
 - In the current time many LLMs can do some great tasks with a big knowledge of different fields but the problem for "Moroccan people" is the query should be in French, English, etc... languages (The most Popular Languages around the world)
