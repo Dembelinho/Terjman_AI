@@ -20,11 +20,14 @@ This a Hackathon project's Repo
 - [Project Global Schema](#project-global-schema)
 - [Enterprise usage](#enterprise-usage)
 - [RAG Schema](#rag-schema)
-- [Fine-tuning](#rag-schema)
-- [Prompt Engineering Techniques](#rag-schema)
-  - [Benchmark table](#rag-schema)
+- [Fine-tuning](#Fine-tuning)
+- [Prompt Engineering Techniques](#Prompt_Engineering_Techniques)
+  - [Benchmark table](#Benchmark_table)
 
+<a name="getting-started"></a>
 # Getting Started
+
+<a name="prerequisite"></a>
 ## 📚Prerequisite
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
 ![Postgres SGBD](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
