@@ -203,7 +203,7 @@ This setup allows for efficient document retrieval and processing by combining l
 3. **The dataset** : For fine_tune the model we will use the ''' atlasia/darija_english ''' datasets
 4. **Dev Environment**: HuggingFace Space
 
-## Prompt Engineering Technics
+## Prompt Engineering Techniques
 
 Enhance the usability and relevance of Large Language Models (LLMs) for Moroccan users by adapting the models and their outputs using prompt engineering techniques. This will ensure that the responses are contextually appropriate, culturally relevant, and linguistically accurate.
 
