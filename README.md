@@ -3,6 +3,12 @@
 
 This a Hackathon project's Repo
 
+## Table of Contents
+- [Getting Started](#main-heading)
+  - [📚Prerequisite](#sub-heading-1)
+- [How to test our app](#main-heading)
+  - [📚Prerequisite](#sub-heading-1)
+
 # Getting Started
 ## 📚Prerequisite
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
