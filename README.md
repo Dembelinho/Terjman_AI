@@ -83,7 +83,7 @@ A user initiates a educational query **(darija-query)** to the system, which pro
 
 - Our solution can be used by enterprises in this way:
   
-  1- We give them the possibility to create their own Darija_Assistances (**X_DARIJA_AI**) with their documents(RAG parts) in a specific fields, by a UI that contains several fields for more flexibility
+  1- We give them the possibility to create their own Darija_Assistance (**X_DARIJA_AI**) with their documents (RAG parts) in specific fields, via an UI that contains several fields for more flexibility
   
   2- They have the choice between using their local LLM model or our LLMs models.
 
