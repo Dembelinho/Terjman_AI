@@ -205,11 +205,29 @@ This setup allows for efficient document retrieval and processing by combining l
 
 To bypass the limitations of our solution, we tried to finetune an existing model
 1. **The model**
-   - **facebook/nllb-200-3.3B**: This model can accept as a source language: 'DARIJA' and translate it into a target language: 'English'.
+   - **facebook/nllb-200-distilled-600M**: This model can accept as a source language: 'DARIJA' and translate it into a target language: 'English'.
 2. **The purpose**: This model needs to be fine-tuned so it can translate more words and sentences.
 3. **The dataset** : For fine_tune the model we will use the ''' atlasia/darija_english ''' datasets
 4. **Dev Environment**: HuggingFace Space
-5. **Result**: --Benchmark before/after
+5. **Result**:
+   - We initially fine-tuned a smaller version of the model from "facebook/nllb-200-distilled-600M". However, we didn't achieve better results due to issues with the data or hyperparameters.
+   - Consequently, we switched to a larger version of the model and attempted to fine-tune it. Unfortunately, we fall in gpu problems.
+   - Due to time constraints, we decided to use the larger model directly, as it already provided good translation results.
+6. **Benchmark**
+
+- The tested Query : ![query test](https://github.com/Dembelinho/Terjman_AI/assets/110602716/99ac7504-c490-445b-94e4-182c4bd88f90)
+  
+- Benchmark table
+<table align="center">
+    <tr>
+        <th>Fine-Tuned Model Response</th>
+        <th>3.3B-Facebook Model Resp</th>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/1754ea67-df1b-44c4-a0d0-85ca7d4aabec"/></td>
+        <td><img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/ee225424-abd4-45cc-8a42-acf8088af34f"/></td>
+    </tr>
+</table>
 
 ## Prompt Engineering Techniques
 
