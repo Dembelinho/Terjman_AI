@@ -249,3 +249,5 @@ For example, we will compare two results of one query:**"كيفاش نصاوب �
         <td><img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/b389259f-3b9f-4480-bf1d-c487642ac3a0"/></td>
     </tr>
 </table>
+
+# How to test our app
