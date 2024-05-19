@@ -19,11 +19,11 @@ This a Hackathon project's Repo
 
 # Project: Context & Limitations
 The project will be a multilingual question-answering (Q/A) system that specifically handles queries in "Darija" (Moroccan Local Arabic).
-## Context: Source of the Idea
+## Context: Seed Idea
 - In the current time many LLMs can do some great tasks with a big knowledge of different fields but the problem for "Moroccan people" is the query should be in French, English, etc... languages (The most Popular Languages around the world)
 - So we got the idea to develop a comprehensive multilingual question-answering (Q/A) platform that allows Moroccan users to interact with advanced Large Language Models (LLMs) using their native languages, such as Darija (Moroccan Arabic), ensuring accessibility and inclusivity in leveraging cutting-edge AI technologies for various informational needs.
 - And also the possibility of uploading some documents to extract knowledge from them.
-## Uses
+## Use Cases
 
 This can be applied in various scenarios where Moroccan users need accessible and accurate information in their native dialect. Potential application areas include:
 
