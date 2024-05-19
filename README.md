@@ -1,4 +1,4 @@
-# Terjman_AI
+# TARJMAN_AI
 This a Hackathon project's Repo
 
 # Getting Started
