@@ -89,7 +89,7 @@ A user initiates a educational query **(darija-query)** to the system, which pro
   
   2- They have the choice between using their local LLM model or our LLMs models.
 
-This is the UI for enterprises
+This is the UI for SMEs
 
 ![Entreprise UI](https://github.com/Dembelinho/Terjman_AI/assets/110602716/7a18337b-1bec-4a76-979e-34965cb1aaf2)
 
