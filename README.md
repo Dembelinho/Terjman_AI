@@ -253,4 +253,5 @@ For example, we will compare two results of one query:**"كيفاش نصاوب �
 # How to test our app
 ```
 pip install -r requirements.txt
+streamlit run app.py
 ```
