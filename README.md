@@ -131,7 +131,7 @@ A user initiates a educational query **(darija-query)** to the system, which pro
 
 This setup effectively handles queries in Darija, leveraging advanced language models for processing and translating responses back to the user's native language.
 
-# Company usage
+# Enterprise usage
 
 <img src="https://github.com/Dembelinho/Terjman_AI/assets/110602716/68afc235-a8e9-4867-ae1a-7659f019ecf5" alt="Glob Entr Schema">
 
